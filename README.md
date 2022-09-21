@@ -57,15 +57,15 @@ In addition to the above, I maintain these configuration files for my CR6-SE Kli
 
 ## Ender-3 Klipper Configuration Files
 
-I use the same logical organization of configuration files as above, for the Ender-3, except that the file named "CR6.cfg" above is here named "e3.cfg":
- - e3.cfg
+I use the same logical organization of configuration files as above, for the Ender-3, except that the file named "CR6.cfg" above is here named "MACROS.cfg":
+ - MACROS.cfg
  - Mainsail.cfg
  - printer.cfg
  - InputShaper.cfg
  
  In addition to the above, I maintain these configuration files for my Ender-3 Klipper installation
 - Moonraker.conf encapsulates the settings specific to my configuration of the Moonraker Klipper/Printer communications broker
-- Webcam.txt - here set up to monitor the one Pi camera I use with that printer
+- Webcam.txt - NOT yet set up to monitor the one Pi camera I will use with that printer
 - I do not use KlipperScreen with the Ender-3, since I only own one Pi HDMI screen.
 
 If ever I decide to change the configuration of either printer, I will revisit and update this README and the Code section, accordingly.
