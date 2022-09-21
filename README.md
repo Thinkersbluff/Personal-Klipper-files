@@ -1,0 +1,2 @@
+# Personal-Klipper-for-CR6-SE
+Rather than try to manage my own configuration files separately from those of @K2Van within the one forked version of his repository, I use this repo to document and preserve my own version of the Klipper configuration files, for my CR6-SE and my Ender-3 printers. Please note that these files may contain errors, inefficiencies and poor programming practices. I make no warranty whatsoever that my files will be suitable for use by others.
