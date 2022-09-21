@@ -34,7 +34,7 @@ I use one Raspberry Pi 3b+ mcu for each of the two printers.  Each Pi has 2Gb of
 
 I have a Windows 10 laptop dedicated to my 3D Printer "farm".
 
-I use Mainsail/Moonraker on the two Pis and a Google Chrome browser on the laptop, to control each of the two printers, through a WAN connection to the applicable Pi.  Each Pi is configured to retain a unique static IP address.
+I use Mainsail/Moonraker on the two Pis and a Google Chrome browser on the laptop, to control each of the two printers, through a WAN connection to the applicable Pi.  Each Pi is configured to use a unique static IP address.  I also use a Cura plug-in to let me connnect Cura directly to either of the two printers, through Moonraker.
 
 I have one 7" HDMI Pi display, connected to the Pi controlling the CR6-SE. I sometimes use Klipperscreen on that display, if the laptop is not available.  I also have a mouse and bluetooth keyboard paired with that Pi, to allow me to interact with the Pi OS, though I prefer to use PUtTY as my terminal program. 
 
@@ -49,12 +49,13 @@ I maintain the following configuration files for the CR6, rather than building o
 - Mainsail.cfg encapsulates the settings specific to my configuration of the Mainsail front-end
 - InputShaper.cfg contains the configuration settings derived from Resonance Compensation
 - printer.cfg contains the remaining printer configuration settings. It also includes CR6.cfg, Mainsail.cfg and InputShaper.cfg at runtime.
-## Ender-3 Klipper Configuration Files
 
 In addition to the above, I maintain these configuration files for my CR6-SE Klipper installation
 - Moonraker.conf encapsulates the settings specific to my configuration of the Moonraker Klipper/Printer communications broker
 - Klipperscreen.conf - auto-generated as part of the KlipperScreen setup
 - Webcam.txt - here set up to monitor the one USB camera I use with that printer
+
+## Ender-3 Klipper Configuration Files
 
 I use the same logical organization of configuration files as above, for the Ender-3, except that the file named "CR6.cfg" above is here named "e3.cfg":
  - e3.cfg
