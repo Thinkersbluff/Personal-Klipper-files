@@ -45,10 +45,10 @@ The "Code" section of this repository contains the configuration files named bel
 ## CR6-SE Klipper Configuration Files
 
 I maintain the following configuration files for the CR6, rather than building one large printer.cfg file
-- CR6.cfg  contains the macro codes specific to the BTT SKR CR6 motherboard (i.e. If I were to change the motherboard, this would be the configuration file to modify or replace)
+- CR6.cfg  contains the macro codes and parameters specific to controlling the CR6-SE printer (e.g. START_PRINT, END_PRINT, RUN_ABL)
 - Mainsail.cfg encapsulates the settings specific to my configuration of the Mainsail front-end
 - InputShaper.cfg contains the configuration settings derived from Resonance Compensation
-- printer.cfg contains the remaining printer configuration settings. It also includes CR6.cfg, Mainsail.cfg and InputShaper.cfg at runtime.
+- printer.cfg contains the macro codes and parameters specific to the BTT SKR CR6 motherboard (i.e. If I were to change the motherboard, this would be the configuration file to modify or replace). It also includes CR6.cfg, Mainsail.cfg and InputShaper.cfg at runtime.
 
 In addition to the above, I maintain these configuration files for my CR6-SE Klipper installation
 - Moonraker.conf encapsulates the settings specific to my configuration of the Moonraker Klipper/Printer communications broker
