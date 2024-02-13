@@ -28,15 +28,17 @@ These modifications to my Ender-3 impact my Klipper configuration files:
  
  # The Klipper Host mcus
 
-I use one Raspberry Pi 3b+ mcu for each of the two printers.  Each Pi has 2Gb of RAM.
+I run Klipper on a Raspberry Pi 3b+ mcu for the Ender 3.
+I run Klipper on a Pi4B+ for the CR6-SE. 
+Each Pi has 2Gb of RAM.
 
 # My Choices re: Klipper (and Pi) Front-Ends
 
-I have a Windows 10 laptop dedicated to my 3D Printer "farm".
+I have Linux running on a laptop PC dedicated to my 3D Printer "farm".
 
 I use Mainsail/Moonraker on the two Pis and a Google Chrome browser on the laptop, to control each of the two printers, through a WAN connection to the applicable Pi.  Each Pi is configured to use a unique static IP address.  I also use a Cura plug-in to let me connnect Cura directly to either of the two printers, through Moonraker.
 
-I have one 7" HDMI Pi display, connected to the Pi controlling the CR6-SE. I sometimes use Klipperscreen on that display, if the laptop is not available.  I also have a mouse and bluetooth keyboard paired with that Pi, to allow me to interact with the Pi OS, though I prefer to use PUtTY as my terminal program. 
+I have one 7" HDMI Pi display, connected to the Pi controlling the Ender 3. I use Klipperscreen on that display, if the laptop is not available.  I also have a mouse and bluetooth keyboard paired with that Pi, to allow me to interact with the Pi OS, though I prefer to use PUtTY as my terminal program. 
 
 # My Klipper Configuration Files
 
